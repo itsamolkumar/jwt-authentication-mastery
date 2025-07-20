@@ -1,0 +1,15 @@
+# Ignore Node modules
+node_modules/
+Frontend/node_modules/
+Backend/node_modules/
+
+# Ignore environment files
+Backend/.env
+Frontend/.env
+
+# Logs
+*.log
+
+# OS/system files
+.DS_Store
+Thumbs.db
