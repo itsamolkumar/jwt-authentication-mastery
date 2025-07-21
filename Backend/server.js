@@ -8,7 +8,7 @@ import userRouter from "./routes/userRoutes.js";
 const app=express();
 
 const port=process.env.PORT || 8000;
-const allowedOrigins=["http://localhost:5173"]
+const allowedOrigins=["https://jwt-authentication-mastery-lpcj-git-main-amol-kumars-projects.vercel.app"]
 connectDB();
 app.use(express.json());
 app.use(cookieParser());
